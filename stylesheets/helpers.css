@@ -2,6 +2,10 @@
   color: darkorange;
 }
 
+.d-b{
+  display: block;
+}
+
 .active:hover{
   cursor: pointer;
 }

@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="stylesheets/todolists.css">
     <link rel="stylesheet" href="stylesheets/helpers.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="scripts/todo_actions.js"></script>
     <title>to do list</title>
   </head>
   <body>

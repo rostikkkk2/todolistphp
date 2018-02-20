@@ -8,6 +8,11 @@
   box-shadow: 0 0 10px gray;
 }
 
+.do-cross{
+  text-decoration: line-through;
+  color: red;
+}
+
 .todolist{
   background-color: #b9c5ff;
   min-height: 235px;

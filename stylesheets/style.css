@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.do-cross{
+  text-decoration: line-through;
+}
+
 main{
   margin: 0 auto;
   text-align: center;
