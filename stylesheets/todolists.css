@@ -1,0 +1,143 @@
+.add-todolist {
+  margin-top: 100px;
+  width: 200px;
+  height: 45px;
+  background-color: salmon;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px gray;
+}
+
+.todolist{
+  background-color: #b9c5ff;
+  min-height: 235px;
+  width: 600px;
+  border-radius: 23px 23px 0 0;
+  margin-top: 200px;
+  margin: auto;
+  border: 2px solid #91a4ff;
+  margin-bottom: 100px;
+}
+
+.todolists_wrapper{
+  margin-top: 70px;
+}
+
+.head-list{
+  height: 55px;
+  width: 600px;
+  background-color: #91a4ff;
+  border-radius: 20px 20px 0 0;
+}
+
+.tasks-list{
+  height: 70px;
+  width: 600px;
+  background-color: #f5fff5;
+  border: 0.080px solid #91a4ff;
+}
+
+.save-task-list{
+  min-height: 60px;
+  width: 600px;
+  background-color: #f5fff5;
+  border: 0.080px solid #91a4ff;
+}
+
+.task-count-list{
+  height: 50px;
+  width: 600px;
+  background-color: #f5fff5;
+  border: 0.080px solid #91a4ff;
+}
+
+.input-head-list{
+  font-size: 35px;
+  border: none;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  background-color: #91a4ff;
+  outline:none;
+}
+
+.input-head-list::-webkit-input-placeholder {
+  color: white;
+}
+
+.input-wright-task-list{
+  font-size: 25px;
+  border: none;
+  margin-top: 18px;
+  color: grey;
+  outline: none;
+  margin-left: 70px;
+  background-color: #f5fff5;
+}
+
+.input-wright-task-list::-webkit-input-placeholder {
+  color: #897c7c;
+  font-style: oblique;
+}
+
+.operation-tasks{
+  display: inline-block;
+  float: right;
+}
+
+
+.btn-in-task-list{
+  border-radius: 30px;
+  height: 35px;
+  width: 35px;
+  margin-top: 17px;
+  background-color: #91a4ff;
+  outline: none;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.add-li-task-list{
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.li-tasks{
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+}
+
+.hor-line{
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.operation-tasks input{
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+}
+
+.header-todolist{
+  padding: 13px;
+  display: inline-block;
+  border-radius: 20px 20px 0 0;
+  margin-left: 60px;
+  margin-right: 10px;
+}
+
+.operation-header{
+  display: inline-block;
+}
+
+.operation-header input{
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+  float: right;
+  margin-top: 16px;
+}
