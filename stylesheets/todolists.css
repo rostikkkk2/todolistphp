@@ -2,10 +2,11 @@
   margin-top: 100px;
   width: 200px;
   height: 45px;
-  background-color: salmon;
+  background-color: #525bbf;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 0 10px gray;
+  box-shadow: 0 0 10px grey;
+  color: white;
 }
 
 .do-cross{
@@ -14,13 +15,12 @@
 }
 
 .todolist{
-  background-color: #b9c5ff;
+  background-color: #7e7eff;
   min-height: 235px;
   width: 600px;
-  border-radius: 23px 23px 0 0;
+  border-radius: 23px;
   margin-top: 200px;
   margin: auto;
-  border: 2px solid #91a4ff;
   margin-bottom: 100px;
 }
 
@@ -29,9 +29,8 @@
 }
 
 .head-list{
-  height: 55px;
   width: 600px;
-  background-color: #91a4ff;
+  background-color: #7e7eff;
   border-radius: 20px 20px 0 0;
 }
 
@@ -44,13 +43,6 @@
 
 .save-task-list{
   min-height: 60px;
-  width: 600px;
-  background-color: #f5fff5;
-  border: 0.080px solid #91a4ff;
-}
-
-.task-count-list{
-  height: 50px;
   width: 600px;
   background-color: #f5fff5;
   border: 0.080px solid #91a4ff;
@@ -87,20 +79,20 @@
 
 .operation-tasks{
   display: inline-block;
-  float: right;
+
 }
 
-
 .btn-in-task-list{
-  border-radius: 30px;
   height: 35px;
-  width: 35px;
-  margin-top: 17px;
-  background-color: #91a4ff;
+  width: 69px;
+  margin-top: 20px;
+  background-color: #7e7eff;
   outline: none;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 15px;
   color: white;
+  border-radius: 11px;
+  border-color: #7e7eff;
 }
 
 .add-li-task-list{
@@ -111,7 +103,6 @@
 }
 
 .li-tasks{
-  margin-bottom: 20px;
   display: inline-block;
   width: 100%;
 }
@@ -128,7 +119,6 @@
 }
 
 .header-todolist{
-  padding: 13px;
   display: inline-block;
   border-radius: 20px 20px 0 0;
   margin-left: 60px;
@@ -142,7 +132,28 @@
 .operation-header input{
   width: 20px;
   height: 20px;
-  margin-right: 7px;
+  margin-right: 17px;
   float: right;
-  margin-top: 16px;
+  margin-top: 3px;
 }
+
+.icon-delete{
+  float: right;
+  margin-top: 25px;
+}
+
+.vline{
+  border-left: 1px solid #543cda;
+  display: inline-block;
+  margin-left: 13px;
+  height: 36px;
+  margin-bottom: -11px;
+}
+
+/* .disp-none{
+  display: none;
+}
+
+.display-show:hover .disp-none{
+    display: inline-block;
+} */

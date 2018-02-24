@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/rostikkkk2/todolistphp#readme",
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "fontawesome": "^4.7.2",
     "jquery": "^3.3.1"
   }
 }

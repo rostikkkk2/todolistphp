@@ -22,6 +22,9 @@
         $_SESSION['id'] = $user['id'];
         $_SESSION['success'] = 'Logined successfully!';
         header('Location: http://todolist.com/todolists.php');
+      }else {
+        header('Location: http://todolist.com');
+        $_SESSION['error'] = 'your login or password is wrong';
       }
     }
   }

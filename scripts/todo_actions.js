@@ -4,4 +4,9 @@ $(document).ready(function(){
     $(this).val(value);
     $(this).closest('form').submit();
   });
+
+  $('#title_task').dblclick(function(){
+    $('#title_task').addClass('hidden');
+    $('#form_change_title_task').removeClass('hidden');
+  });
 });

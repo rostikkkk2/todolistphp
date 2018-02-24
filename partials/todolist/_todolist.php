@@ -2,8 +2,8 @@
 <div class="todolist">
     <div class="head-list operation-header">
         <h1 class="header-todolist"><?= $todolist['title'] ?></h1>
-        <input id="test1" name="test1" type="image" src="partials/images/pen.png" value="" alt="" />
-      <form class="" action="engines/todolist/delete.php" method="post">
+        <!-- <input id="test1" name="test1" type="image" src="partials/images/pen.png" value="" alt="" /> -->
+      <form class="icon-delete" action="engines/todolist/delete.php" method="post">
         <input id="test1" name="test1" type="image" src="partials/images/delete.png" value="" alt="" />
         <input type="hidden" name="id" value="<?= $todolist['id'] ?>">
       </form>
@@ -12,7 +12,7 @@
     <div class="tasks-list">
       <input class="input-wright-task-list" id="value_todo_task" type="text" name="title" placeholder="What needs to be done?">
       <input type="hidden" name="todolist_id" value="<?= $todolist['id'] ?>">
-      <input class="btn-in-task-list" type="submit" id="btn_add_task_list" value="+"></input>
+      <input class="btn-in-task-list form-group" type="submit" id="btn_add_task_list" value="Add task"></input>
     </div>
   </form>
     <div class="save-task-list">

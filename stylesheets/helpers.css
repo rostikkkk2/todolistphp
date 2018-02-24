@@ -42,3 +42,19 @@
 .has-error .errors{
   visibility: visible;
 }
+
+.mb-0{
+  margin-bottom: 0;
+}
+
+.inline-b{
+  display: inline-block;
+}
+
+.ml-19{
+  margin-left: 19px;
+}
+
+.list-style-n{
+  list-style-type: none;
+}
