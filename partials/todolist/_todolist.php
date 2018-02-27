@@ -4,8 +4,8 @@
         <h1 class="header-todolist"><?= $todolist['title'] ?></h1>
         <!-- <input id="test1" name="test1" type="image" src="partials/images/pen.png" value="" alt="" /> -->
       <form class="icon-delete" action="engines/todolist/delete.php" method="post">
-        <input id="test1" name="test1" type="image" src="partials/images/delete.png" value="" alt="" />
         <input type="hidden" name="id" value="<?= $todolist['id'] ?>">
+        <input id="test1" class="delete-todolist-js" name="test1" type="image" src="partials/images/delete.png" value="" alt="" />
       </form>
     </div>
     <form class="" action="engines/task/create.php" method="post">

@@ -16,7 +16,7 @@
       <div class="operation-tasks disp-none">
         <form class="" action="engines/task/delete.php" method="post">
           <input type="hidden" name="id" value="<?= $task['id'] ?>">
-          <input id="test1" name="delete_task" type="image" src="partials/images/delete.png" value="" alt="" />
+          <input id="test1" class="delete-task-js" name="delete_task" type="image" src="partials/images/delete.png" value="" alt="" />
         </form>
       </div>
   </li>

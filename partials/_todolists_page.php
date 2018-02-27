@@ -29,6 +29,7 @@
       <div class="container-fluid">
         <div class="row">
           <?php setFlash() ?>
+          <div class="flash-js">  </div>
           <section class="todolists">
             <h1>GrowUp Todo</h1>
             <div class="todolists_wrapper">
