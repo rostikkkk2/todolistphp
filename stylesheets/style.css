@@ -121,3 +121,10 @@ nav span:hover{
 .action:hover{
   cursor: pointer;
 }
+
+.add-avatar{
+  display: inline-block;
+  float: right;
+  margin-top: 17px;
+  margin-right: 52px;
+}

@@ -40,6 +40,7 @@
               ?>
             </div>
             <form action="engines/todolist/create.php" method="post">
+              <input type="hidden" name="user_id" value="<?= $todolist['user_id'] ?>">
               <button type="submit" class="add-todolist">
                 <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
                 Add new todo

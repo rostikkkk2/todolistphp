@@ -1,7 +1,6 @@
 <?php
   $response = [];
 
-
   if (isset($_POST['id']) && !empty($_POST['id'])){
       $id = $_POST['id'];
     $response = removeTodolist($id);

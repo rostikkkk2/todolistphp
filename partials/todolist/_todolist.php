@@ -2,7 +2,6 @@
 <div class="todolist">
     <div class="head-list operation-header">
         <h1 class="header-todolist"><?= $todolist['title'] ?></h1>
-        <!-- <input id="test1" name="test1" type="image" src="partials/images/pen.png" value="" alt="" /> -->
       <form class="icon-delete" action="engines/todolist/delete.php" method="post">
         <input type="hidden" name="id" value="<?= $todolist['id'] ?>">
         <input id="test1" class="delete-todolist-js" name="test1" type="image" src="partials/images/delete.png" value="" alt="" />

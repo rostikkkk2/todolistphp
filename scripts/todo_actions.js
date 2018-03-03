@@ -71,4 +71,24 @@ $('.delete-todolist-js').click(function(e){
   })
 })
 
+
+$('.add-todolist').click(function(e){
+  e.preventDefault();
+  var btn_add_todo = $(this);
+  var user_id = $(this).prev().val();
+  var request = new XMLHttpRequest();
+  console.log(request);
+  var url = 'http://todolist.com/engines/todolist/create.php';
+  request.open('POST', url, true);
+    request.send({id: user_id});
+    request.onreadystatechange = function(){
+      if (request.readyState == 4) {
+        // user_id.select('.todolists_wrapper').add();
+        console.log(request.response);
+      }
+    }
+});
+
+
+
 });
