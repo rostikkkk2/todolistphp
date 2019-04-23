@@ -1,0 +1,159 @@
+.add-todolist {
+  margin-top: 100px;
+  width: 200px;
+  height: 45px;
+  background-color: #525bbf;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px grey;
+  color: white;
+}
+
+.do-cross{
+  text-decoration: line-through;
+  color: red;
+}
+
+.todolist{
+  background-color: #7e7eff;
+  min-height: 235px;
+  width: 600px;
+  border-radius: 23px;
+  margin-top: 200px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.todolists_wrapper{
+  margin-top: 70px;
+}
+
+.head-list{
+  width: 600px;
+  background-color: #7e7eff;
+  border-radius: 20px 20px 0 0;
+}
+
+.tasks-list{
+  height: 70px;
+  width: 600px;
+  background-color: #f5fff5;
+  border: 0.080px solid #91a4ff;
+}
+
+.save-task-list{
+  min-height: 60px;
+  width: 600px;
+  background-color: #f5fff5;
+  border: 0.080px solid #91a4ff;
+}
+
+.input-head-list{
+  font-size: 35px;
+  border: none;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  background-color: #91a4ff;
+  outline:none;
+}
+
+.input-head-list::-webkit-input-placeholder {
+  color: white;
+}
+
+.input-wright-task-list{
+  font-size: 25px;
+  border: none;
+  margin-top: 18px;
+  color: grey;
+  outline: none;
+  margin-left: 70px;
+  background-color: #f5fff5;
+}
+
+.input-wright-task-list::-webkit-input-placeholder {
+  color: #897c7c;
+  font-style: oblique;
+}
+
+.operation-tasks{
+  display: inline-block;
+
+}
+
+.btn-in-task-list{
+  height: 35px;
+  width: 69px;
+  margin-top: 20px;
+  background-color: #7e7eff;
+  outline: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  border-radius: 11px;
+  border-color: #7e7eff;
+}
+
+.add-li-task-list{
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.li-tasks{
+  display: inline-block;
+  width: 100%;
+}
+
+.hor-line{
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.operation-tasks input{
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+}
+
+.header-todolist{
+  display: inline-block;
+  border-radius: 20px 20px 0 0;
+  margin-left: 60px;
+  margin-right: 10px;
+}
+
+.operation-header{
+  display: inline-block;
+}
+
+.operation-header input{
+  width: 20px;
+  height: 20px;
+  margin-right: 17px;
+  float: right;
+  margin-top: 3px;
+}
+
+.icon-delete{
+  float: right;
+  margin-top: 25px;
+}
+
+.vline{
+  border-left: 1px solid #543cda;
+  display: inline-block;
+  margin-left: 13px;
+  height: 36px;
+  margin-bottom: -11px;
+}
+
+.disp-none{
+  display: none;
+}
+
+.display-show:hover .disp-none{
+    display: inline-block;
+}

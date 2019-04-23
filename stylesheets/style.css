@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.do-cross{
+  text-decoration: line-through;
+}
+
+body{
+  background-color: rgba(0, 255, 161, 0.25);
+}
+
+main{
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  min-width: 600px;
+  padding-top: 180px;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-menu{
+  background-color: #363667;
+  width: 100%;
+  height: 70px;
+}
+
+nav{
+  color: white;
+}
+
+nav span{
+  font-size: 25px;
+  margin: 15px 30px 15px;
+  display: inline-block;
+  height: 50px;
+  vertical-align: middle;
+  opacity: 0.85;
+}
+
+nav span:hover{
+  cursor: pointer;
+  color: darkorange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.banner {
+  margin: 0 auto 20px auto;
+  box-sizing: border-box;
+  width: 500px;
+  height: 50px;
+  border-radius: 25px;
+  border: 3px solid black;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.form-section{
+  margin: 0 auto;
+  background-color: white;
+  border: 3px solid #363667;
+  border-radius: 25px;
+  width: 600px;
+}
+
+.logo-authorize-registr{
+  background-color: #363667;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 1px solid #363667;
+  color: white;
+  font-size: 25px;
+  opacity: 0.85;
+}
+
+.form-group{
+  width: 80%;
+  margin: 25px auto;
+  text-align: left;
+}
+
+.form-group lable{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 7px;
+  font-size: 20px;
+}
+
+.form-group input{
+  width: 100%;
+  min-height: 25px;
+  border: 1px solid grey;
+  padding-left: 10px;
+}
+
+.action-button{
+  border: 1px solid #363667;;
+  border-radius: 5px;
+  border-color: white;
+  color: white;
+  min-height: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 22px;
+  background-color: #363667;
+  opacity: 0.85;
+}
+
+.action-button:hover{
+  color: salmon;
+}
+
+.action:hover{
+  cursor: pointer;
+}
+
+.add-avatar{
+  display: inline-block;
+  float: right;
+  margin-top: 17px;
+  margin-right: 52px;
+}

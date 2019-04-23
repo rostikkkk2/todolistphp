@@ -1,0 +1,24 @@
+{
+  "name": "todolist.com",
+  "version": "1.0.0",
+  "description": "1) Форма в паршиале\r 2) Файл обработчик\r 3) Проверка параметров\r 4)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rostikkkk2/todolistphp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rostikkkk2/todolistphp/issues"
+  },
+  "homepage": "https://github.com/rostikkkk2/todolistphp#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "fontawesome": "^4.7.2",
+    "jquery": "^3.3.1"
+  }
+}

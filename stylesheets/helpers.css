@@ -1,0 +1,60 @@
+.active{
+  color: darkorange;
+}
+
+.d-b{
+  display: block;
+}
+
+.active:hover{
+  cursor: pointer;
+}
+
+.has-error{
+  color: red;
+}
+
+.has-error-bg{
+  background-color: red;
+}
+
+.has-error input{
+  outline-color: red;
+}
+
+.has-success{
+  color: green;
+}
+
+.has-success-bg{
+  background-color: green;
+}
+
+.has-success input{
+  color: green;
+  border: 1px solid grey;
+}
+
+.errors{
+  visibility: hidden;
+}
+
+.has-error .errors{
+  visibility: visible;
+}
+
+.mb-0{
+  margin-bottom: 0;
+}
+
+.inline-b{
+  display: inline-block;
+}
+
+.ml-19{
+  margin-left: 19px;
+}
+
+.list-style-n{
+  list-style-type: none;
+}
